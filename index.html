@@ -7,16 +7,24 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
 </head>
 <body>
     <!--la partie gauche du site-->
     <section id="section1">
+        <div class="img">
+            <img src="./image/mortier.png" alt="logo" class="logo">
+           
+        </div>
+        
         <div class="content">
-          
 
             <article class="profile"><!--la partie gauche du site Profil-->
-                <h2>P R O F I L E</h2>
-                <div class="bande"></div>
+                <div class="pb">
+                    <h2>P R O F I L E</h2>
+                    <div class="bande"></div>
+                </div>
+              
                 <p>
                     Déterminé, sérieux et <br>
                     conscient du travail qui <br>
@@ -29,13 +37,24 @@
             <article class="contact"> <!--la partie gauche du site Contact-->
     
                 <h2>C O N T A C T</h2>     
-                <div class="bande"></div>     
-                    <p>Agoè minamadou</p> 
-                    <p>emmanuelbaloa@gmail.com</p> 
-                    <p>+228 70 66 01 68</p>
+                <div class="bande"></div>    
+                   <div class="lieu">
+                    <img src="./image/lieu.png" alt="icone"  class="logo">
+                       <p class="P1">Agoè minamadou</p> 
+                   </div> 
+                   <div class="mail">
+                    <img src="./image/e-mail.png" alt="icone" class="logo">
+                        <p class="P2">emmanuelbaloa@gmail.com</p>
+                   </div>
+                   <div class="num">
+                    <img src="./image/appel-telephonique.png" alt="icone" class="logo">
+                        <p class="P3">+228 70 66 01 68</p>
+                   </div>
+
+                   
             </article>
             <article class="centre_interet">
-                <h2>C E N T R E S &nbsp;&nbsp;D’I N T É R Ê T</h2>
+                <h2>C E N T R E S &nbsp;&nbsp; D’I N T É R Ê T</h2>
                 <div class="bande"></div>
                 <br>
                     <p>SPORT</p> 
@@ -50,111 +69,122 @@
      
     <section id="section2">
 
+
         <h1>Emmanuel BALOA</h1>
 
                 <article class="article1">
-                        <h2>FORMATION</h2>
-                        
-                        <ul>
+
+
+
+                    #section1 .content .contact .lieu .logo {
+
+                            <h2>F O R M A T I O N</h2>
+                            <div class="bande"></div>
                             <p>2024 - Baccalauréat deuxième partie techniques (en cours)</p>
                             <p>2023 - Baccalauréat première partie techniques</p>
                             <p>2020 - Brevet d'études du premier cycle</p>
                             <p>2016 - Certificat d'études du premier degré</p>
-                        </ul>
-                
+        
+                        
                 </article>  
 
                 <article class="article2">
-                      <h2 class="experience">EXPERIENCES</h2>
-
+                      <h2 class="experience">E X P E R I E N C E S</h2>
+                      <div class="bande"></div>
                         
                          <div class="exper">
 
-                                    
-                                <div>
-                                    <p>31/7/2023</p>
-                                    <p>NAFRICA</p>
-                                </div>
-                             
                                 <div class="viacy">
+                                        <div class="date">
+                                            <p>31/7/2023</p>
+                                            <p>NAFRICA</p>
+                                        </div>  
+                                        
+                                        <div class="lab">
+                                            <h4>FORMATION VIACY</h4>
+                                            <li>Base de la Cybersécurité</li>
+                                            <li>Initiation a L’IA (machine Learning , deep Learning)</li>
+                                        </div>
 
-                                        <h4>FORMATION VIACY</h4>
-                                        <li>Base de la Cybersécurité</li>
-                                        <li>Initiation a L’IA (machine Learning , deep Learning)</li>
-                           
                                 </div>
 
-                                <div>
-                                    <p>12/6/2023</p>
-                                    <p>TIDD LAB</p>
-                                </div>
+                              
                                
                                  <div class="tidd">
                                 
-
-                                    <ul class="stage">
-                                        <h4>STAGIAIRE DANS UN FABLAB</h4> 
-                                        <li>Modélisation et impression 3D</li>
-                                        <li>Conception des cartes électroniques</li>
-                                        <li>Utilisation des machines à commande numériques</li>
-                                    </ul>
+                                        <div class="date">
+                                            <p>12/6/2023</p>
+                                            <p>TIDD LAB</p>
+                                        </div>
+                                         <div class="tm">
+                                            <h4>STAGIAIRE DANS UN FABLAB</h4> 
+                                            <li>Modélisation et impression 3D</li>
+                                            <li>Conception des cartes électroniques</li>
+                                            <li>Utilisation des machines à commande numériques</li>
+                                         </div>
+                                      
+                                
                                  </div>
 
-                                 <div>
-                                    <p>7/04/2022</p>
-                                    <p>LETP Lomé</p>
-                                </div>
-                                
-           
                                 <div class="letp">
-                                
-                                    <ul class="letp">
-                                        <h4>PARTICIPATION A LA SEMAINE DE L’ENSEIGNEMENT TECHNIQUE</h4>
-                                        <li>Réalisation d’un robot aspirateur</li>
-                                        <li>Réalisation d’un panneau publicitaire numérique</li>
-                                        <li>Mise en place des poubelles intelligente</li>
-                                    </ul>
+                                        <div class="date">
+                                            <p>7/04/2022</p>
+                                            <p>LETP Lomé</p>
+                                        </div>  
+                                        <div class="sem">
+                                            <h4>PARTICIPATION A LA SEMAINE DE L’ENSEIGNEMENT TECHNIQUE</h4>
+                                            <li>Réalisation d’un robot aspirateur</li>
+                                            <li>Réalisation d’un panneau publicitaire numérique</li>
+                                            <li>Mise en place des poubelles intelligente</li>
+                                        </div>
+                              
                                 </div>
 
-                                <div >
-                                    <p>12/06/2021</p>
-                                    <p>CERVO</p>
-                                </div>
 
-                                <div class="stage_cervo">
+
+                                <div class="stage">
                                  
- 
-                                    <ul>  
+                                        <div class="date">
+                                            <p>12/06/2021</p>
+                                            <p>CERVO</p>
+                                        </div>
+                                       <div class="cervo">
                                         <h4>STAGIAIRE DANS UN CABINET DE MAINTENANCE INFORMATIQUE</h4>
                                         <li>Réparation des smartphones et des ordinateurs portables</li>
                                         <li>Maintenance des équipements de sonorisations</li>
                                         <li>Mise en place et configuration des routeurs</li>
                                         <li>nstallation et configuration des équipements de jeux vidéos</li>
-                                    </ul>
+                                       </div>
+                                        
                                 </div>
-                            </div>     
+                        </div>     
                      
                 </article>
 
-
                 <article class="article3">
-                    <h2>COMPÉTENCES</h2>
+                    
+                
+                        <h2>C O M P É T E N C E S</h2>
+                            <div class="bande"></div>
 
-                        <div class="lang">
-                            <h3>LANGUES</h3>
-                                <p>Français : Niveau scolaire</p>
-                                <p>Anglais : Niveau scolaire</p>
-                        </div>
+                            <div class="boite">
 
-                        <br>
+                                
+                                <div class="logiciel">
+                                    <h3>LOGICIELS MAÎTRISÉS</h3>
+                                    <li>FUSION 360</li>
+                                    <li>PROTEUS</li>
+                                    <li>VS CODE</li>
+                                    <li>ARDUINO IDE</li>
+                                </div>
+                            
+                                <div class="lang"> 
+                                    <h3>LANGUES</h3>
+                                            <li>Français : Niveau scolaire</li><br>
+                                            <li>Anglais : Niveau scolaire</li>
+                                </div>
 
-                        <div class="logiciel">
-                            <h3>LOGICIELS MAÎTRISÉS</h3>
-                                <p>FUSION 360</p>
-                                <p>PROTEUS</p>
-                                <p>VS CODE</p>
-                                <p>ARDUINO IDE</p>
-                        </div>                       
+                            </div>
 
                 </article>
 
